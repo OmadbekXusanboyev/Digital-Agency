@@ -348,8 +348,8 @@ nav .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
   color: white;
   padding: 0px 0px 50px 0px;
 }
