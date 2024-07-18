@@ -344,18 +344,19 @@ nav .container {
 }
 
 .about_info {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 50px;
+  /* flex-wrap: wrap; */
+  gap: 30px;
   color: white;
   padding: 0px 0px 50px 0px;
 }
 .who_info {
-  width: 50%;
+  width: 32%;
   border-right: 3px solid #098a5b;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 .who_info h3 {
   font-size: 23px;
@@ -366,7 +367,7 @@ nav .container {
 }
 
 .Philosophy_info {
-  width: 50%;
+  width: 32%;
 }
 .Philosophy_info h3 {
   font-size: 23px;
@@ -377,9 +378,9 @@ nav .container {
 }
 
 .work_info {
-  padding-left: 50px;
+  width: 32%;
+  padding-left: 30px;
   border-left: 3px solid #098a5b;
-  width: 50%;
 }
 .work_info h3 {
   font-size: 23px;
@@ -472,7 +473,8 @@ nav .container {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 20px;
+  width: 100%;
   color: white;
 }
 .news_card {
